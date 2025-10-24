@@ -1,24 +1,24 @@
 import React from "react";
-import type { JSXElement } from "@fluentui/react-components";
 import { makeStyles } from "@fluentui/react-components";
 
 const useStyles = makeStyles({
   root: {
-    alignItems: "flex-start",
-    display: "flex",
-    flexDirection: "columnn",
-    justifyContent: "flex-start",
-    padding: "50px 20px",
-    rowGap: "20px",
+    margin: 0,
+    width: "100%",
+    textAlign: "center",
+    padding: "20px",
+  },
+  title: {
+    color: "purple",
   },
 });
 
-const Header = (): JSXElement => {
+const Header = () => {
   const styles = useStyles();
 
   return (
     <div className={styles.root}>
-      <h1>Let's Get Some Work Done!</h1>
+      <h1 className={styles.title}>Let's Get Some Work Done!</h1>
     </div>
   );
 };

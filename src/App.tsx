@@ -1,6 +1,5 @@
 import Header from "./Components/Header/Header";
 
-import "./App.css";
 
 /** Create a todo app and instead of using a backend use settimeout to create async functionality
  * Create a todos list in a separate folder
