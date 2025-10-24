@@ -1,6 +1,6 @@
 import React from "react";
 import type { JSXElement } from "@fluentui/react-components";
-import { makeStyles, Tab, TabList } from "@fluentui/react-components";
+import { makeStyles } from "@fluentui/react-components";
 
 const useStyles = makeStyles({
   root: {
@@ -18,12 +18,7 @@ const Header = (): JSXElement => {
 
   return (
     <div className={styles.root}>
-      <TabList defaultSelectedValue="tab2">
-        <Tab>Home</Tab>
-        <Tab>Home</Tab>
-        <Tab>Home</Tab>
-        <Tab>Home</Tab>
-      </TabList>
+      <h1>Let's Get Some Work Done!</h1>
     </div>
   );
 };
