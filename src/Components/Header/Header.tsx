@@ -9,7 +9,7 @@ const useStyles = makeStyles({
     padding: "20px",
   },
   title: {
-    color: "purple",
+    color: "black",
   },
 });
 
