@@ -7,6 +7,7 @@ const useStyles = makeStyles({
     width: "100%",
     textAlign: "center",
     padding: "20px",
+    fontSize: "24px",
   },
   title: {
     color: "black",
